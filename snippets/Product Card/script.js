@@ -1,0 +1,1 @@
+$('span:active').prev('h2').css('color', 'red');
