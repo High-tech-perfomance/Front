@@ -1,0 +1,35 @@
+body {
+  background: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: goldenrod;
+}
+
+div span{
+    font-size: 22vw;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+}
+
+div span:not(:first-child){
+    margin-left: -0.23em;
+}
+
+    /* Teste de outro código */
+span {
+    transition: 300ms ease-in-out;
+}
